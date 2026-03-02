@@ -66,6 +66,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://bestfinancesites.com/bloomberg-terminal-review.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://bestfinancesites.com/brokerage-trading.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -127,6 +132,16 @@
   </url>
   <url>
     <loc>https://bestfinancesites.com/editorial-standards.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://bestfinancesites.com/privacy-policy.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://bestfinancesites.com/terms-of-service.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -259,6 +274,11 @@
     <loc>https://bestfinancesites.com/insurance-technology-platforms.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://bestfinancesites.com/interactive-brokers-review.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://bestfinancesites.com/investment-banking-research-tools.html</loc>
@@ -404,6 +424,11 @@
     <loc>https://bestfinancesites.com/real-estate-investment-platforms.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://bestfinancesites.com/refinitiv-eikon-review.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://bestfinancesites.com/regtech-compliance-platforms.html</loc>
