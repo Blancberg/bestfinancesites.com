@@ -3,9 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BestFinanceSites.com | The Authority on Financial Websites & Resources</title>
-    <meta name="description" content="Curated reviews of the best financial websites, tools, and resources for professionals and investors. high-quality financial journalism and analysis.">
+    <title>BestFinanceSites.com | The Authority on Financial Websites &amp; Resources</title>
+    <meta name="description" content="Curated 2026 reviews of the best financial websites, tools, and platforms — for analysts, traders, institutional buyers, and serious individual investors.">
     <meta name="keywords" content="financial websites, investment tools, market data, financial research, institutional trading platforms, investment research tools, financial data providers, portfolio management software">
+    <link rel="canonical" href="https://bestfinancesites.com/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="BestFinanceSites.com | The Authority on Financial Websites &amp; Resources">
+    <meta property="og:description" content="Curated 2026 reviews of the best financial websites, tools, and platforms.">
+    <meta property="og:url" content="https://bestfinancesites.com/">
+    <meta property="og:site_name" content="BestFinanceSites.com">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="BestFinanceSites.com | Reviews of the Best Financial Tools">
+    <meta name="twitter:description" content="Curated 2026 reviews of the best financial websites, tools, and platforms.">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%230274b6'/%3E%3Ctext x='32' y='44' font-family='Georgia,serif' font-size='40' font-weight='700' fill='white' text-anchor='middle'%3EB%3C/text%3E%3C/svg%3E">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "BestFinanceSites.com",
+      "url": "https://bestfinancesites.com/",
+      "description": "The authority on financial websites, tools, and resources.",
+      "publisher": { "@type": "Organization", "name": "BestFinanceSites.com" }
+    }
+    </script>
     <style>
     /* Critical CSS for above-the-fold content */
     :root {
@@ -163,313 +183,31 @@
     </style>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preload" as="font" crossorigin href="https://fonts.gstatic.com/s/librefranklin/v18/jizDREVItHgc8qDIbSTKq4XkRiUM8hY0.woff2" type="font/woff2">
-    <link rel="preload" as="font" crossorigin href="https://fonts.gstatic.com/s/librebaskerville/v14/kmKnZrc3Hgbbcjq75U4uslyuy4kn0qNXaxM.woff2" type="font/woff2">
-    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;500;600;700&family=Libre+Baskerville:wght@400;700&text=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789&display=swap">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;500;600;700&family=Libre+Baskerville:wght@400;700&text=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789&display=swap" media="print" onload="this.media='all'">
-    <noscript>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;500;600;700&family=Libre+Baskerville:wght@400;700&text=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789&display=swap">
-    </noscript>
-
-    <!-- Use the Font Face Observer library for better font loading control -->
-    <script>
-    // Inline Font Face Observer (simplified version)
-    (function(){
-        function FontFaceObserver(family) {
-            this.family = family;
-            this.testString = 'BESbswy';
-        }
-
-        FontFaceObserver.prototype.load = function() {
-            var self = this;
-            return new Promise(function(resolve, reject) {
-                var start = Date.now();
-                var container = document.createElement('div');
-                container.innerHTML = self.testString;
-                container.style.position = 'absolute';
-                container.style.visibility = 'hidden';
-                container.style.fontFamily = 'sans-serif';
-                container.style.fontSize = '72px';
-                document.body.appendChild(container);
-
-                var width = container.offsetWidth;
-                container.style.fontFamily = self.family + ',sans-serif';
-
-                function check() {
-                    if (Date.now() - start > 5000) {
-                        document.body.removeChild(container);
-                        return reject(new Error('Timeout loading font: ' + self.family));
-                    }
-
-                    if (container.offsetWidth !== width) {
-                        document.body.removeChild(container);
-                        resolve();
-                        return;
-                    }
-
-                    setTimeout(check, 50);
-                }
-
-                document.fonts ? document.fonts.ready.then(check) : setTimeout(check, 50);
-            });
-        };
-
-        window.FontFaceObserver = FontFaceObserver;
-    })();
-
-    // Apply a class when fonts are loaded
-    document.addEventListener('DOMContentLoaded', function() {
-        // Apply a temporary class to stabilize layout
-        document.documentElement.classList.add('fonts-loading');
-
-        // Define a function to set heights immediately
-        function setFixedHeights() {
-            const mainContent = document.querySelector('.main-content');
-            if (mainContent) {
-                const computedHeight = mainContent.offsetHeight;
-                mainContent.style.minHeight = (computedHeight + 100) + 'px';
-            }
-
-            const categoryGrid = document.querySelector('.category-grid');
-            if (categoryGrid) {
-                const computedHeight = categoryGrid.offsetHeight;
-                categoryGrid.style.minHeight = (computedHeight + 50) + 'px';
-            }
-
-            // Find and stabilize all list items
-            const listItems = document.querySelectorAll('li');
-            listItems.forEach(function(item) {
-                const height = item.offsetHeight;
-                item.style.minHeight = height + 'px';
-            });
-        }
-
-        // Run immediately to set heights before fonts load
-        setFixedHeights();
-
-        // Load fonts with observers
-        var franklin = new FontFaceObserver('Libre Franklin');
-        var baskerville = new FontFaceObserver('Libre Baskerville');
-
-        Promise.all([
-            franklin.load(),
-            baskerville.load()
-        ]).then(function() {
-            document.documentElement.classList.remove('fonts-loading');
-            document.documentElement.classList.add('fonts-loaded');
-
-            // Run again after fonts have loaded to ensure stability
-            setTimeout(setFixedHeights, 100);
-        }).catch(function(e) {
-            console.warn('Font loading failed:', e);
-            document.documentElement.classList.remove('fonts-loading');
-            document.documentElement.classList.add('fonts-error');
-        });
-    });
-    </script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;500;600;700&family=Libre+Baskerville:wght@400;700&display=swap">
     <style>
     /* Font fallback to prevent layout shift */
     @font-face {
-        font-family: 'Libre Franklin';
+        font-family: 'Libre Franklin Fallback';
         font-style: normal;
         font-weight: 400;
-        font-display: swap;
         src: local('Arial');
         size-adjust: 97%;
     }
     @font-face {
-        font-family: 'Libre Baskerville';
+        font-family: 'Libre Baskerville Fallback';
         font-style: normal;
         font-weight: 400;
-        font-display: swap;
         src: local('Georgia');
         size-adjust: 102%;
     }
-
-    /* Prevent layout shifts by setting specific dimensions - strict approach */
-    .main-content {
-        min-height: 3000px; /* Much larger value to ensure all content fits */
-        height: auto !important; /* Force height to adjust properly */
-        contain: paint; /* Less restrictive containment that won't cause layout issues */
-        content-visibility: auto;
-        contain-intrinsic-size: 1px 3000px;
-        position: relative; /* Create a new stacking context */
-        display: block; /* Ensure proper display */
-        width: 100%; /* Force width */
-        overflow: visible; /* Ensure content isn't clipped */
-    }
-
-    /* Stabilize inner grids and content */
-    .content-grid {
-        min-height: 2800px;
-        display: grid;
-        position: relative;
-        width: 100%;
-    }
-    .logo .domain {
-        display: inline-block;
-        width: auto;
-        height: auto;
-        contain: layout style;
-    }
-    .featured-content h2 {
-        min-height: 1.4em;
-        contain: layout;
-    }
-    /* Fix list item shifts */
-    .nav-list li,
-    .category-item li,
-    .footer-categories li,
-    .footer-info li {
-        contain: layout style;
-        min-height: 2em;
-    }
-    /* Reserve space for fonts */
-    h1, h2, h3, h4, h5, h6 {
-        font-family: var(--sans-font);
-        font-weight: 700;
-        line-height: 1.3;
-        margin-bottom: 1.5rem;
-        overflow-wrap: break-word;
-        word-wrap: break-word;
-    }
-    /* Set explicit sizes for category grids that were shifting */
-    .category-grid,
-    .categories-grid {
-        contain: layout;
-        content-visibility: auto;
-        contain-intrinsic-size: 1px 800px;
-    }
-    /* Force default font before custom fonts load */
-    body {
-        font-family: var(--serif-font);
-        font-size: 1.6rem;
-        line-height: 1.6;
-        color: var(--text-color);
-        background-color: var(--body-bg);
-    }
-    /* Prevent text movement during font load */
-    html {
-        font-size: 62.5%;
-        text-size-adjust: 100%;
-        -webkit-text-size-adjust: 100%;
-    }
-
-    /* Font size adjustment to prevent layout shift */
-    html:not(.fonts-loaded) body,
-    html:not(.fonts-loaded) p,
-    html:not(.fonts-loaded) li {
-        letter-spacing: -0.01em; /* Adjust to match fallback font metrics */
-        /* Scale text to match the eventual loaded font dimensions */
-        font-size: calc(1.6rem * 0.98);
-        line-height: 1.65;
-    }
-
-    /* Specific size adjustments for heading elements */
-    html:not(.fonts-loaded) h1 { font-size: calc(3.6rem * 0.97); line-height: 1.32; }
-    html:not(.fonts-loaded) h2 { font-size: calc(2.8rem * 0.97); line-height: 1.32; }
-    html:not(.fonts-loaded) h3 { font-size: calc(2.2rem * 0.97); line-height: 1.32; }
-
-    /* Fix for the specific category item that's causing layout shift */
-    .category-item h3 a,
-    .nav-list a {
-        display: inline-block;
-        min-width: fit-content;
-        position: relative;
-    }
-
-    /* Create specific height reservations for key elements that shift */
-    h2.section-heading {
-        min-height: 50px;
-        contain: layout;
-    }
-
-    /* Ensure smooth transition when fonts load */
-    html.fonts-loaded body {
-        transition: letter-spacing 0.1s ease-out;
-    }
-
-    /* Set explicit sizes for all list items across the site */
-    li {
-        min-height: 24px;
-        contain: layout paint;
-    }
-
-    /* Stabilize all category sections */
-    section {
-        contain: layout;
-    }
-
-    /* Add pre-defined dimensions for category grids based on actual rendered sizes */
-    .category-grid {
-        height: auto !important;
-        min-height: 1400px;
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-        gap: 2.5rem;
-    }
-
-    /* Force specific heights for category cards to prevent shifting */
-    .category-card {
-        min-height: 160px;
-        height: auto !important;
-        display: flex;
-        flex-direction: column;
-    }
-
-    /* Apply size stabilization to review cards */
-    .review-card {
-        min-height: 220px;
-        height: auto !important;
-    }
-
-    /* Apply a more aggressive font loading strategy */
-    .featured-content h2 {
-        display: block;
-        min-height: 80px;
-        height: auto !important;
-    }
-
-    /* Pre-allocate space for all categories section */
-    #all-categories {
-        min-height: 1200px;
-        height: auto !important;
-    }
-
-    /* For the Alternative Investments list item that's specifically causing shifts */
-    .category-item:has(h3 a[href="alternative-investments.html"]) {
-        contain: strict;
-        min-height: 200px;
-    }
+    body { font-family: 'Libre Baskerville', 'Libre Baskerville Fallback', Georgia, serif; }
+    h1, h2, h3, h4, h5, h6, .nav-list a, .date { font-family: 'Libre Franklin', 'Libre Franklin Fallback', Arial, sans-serif; }
     </style>
-    <link rel="stylesheet" href="css/styles.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%230274b6'/%3E%3Ctext x='32' y='44' font-family='Georgia,serif' font-size='40' font-weight='700' fill='white' text-anchor='middle'%3EB%3C/text%3E%3C/svg%3E">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3842191947397990"
      crossorigin="anonymous"></script></head>
 <body>
-    <!-- Add a hidden image to pre-render fonts before page load -->
-    <div style="position: absolute; width: 0; height: 0; overflow: hidden; visibility: hidden;">
-        <span style="font-family: 'Libre Franklin', sans-serif;">Preload Font</span>
-        <span style="font-family: 'Libre Baskerville', serif;">Preload Font</span>
-    </div>
-
-    <!-- Add a script to force layout stabilization -->
-    <script>
-    // Immediately execute to prevent layout shifts
-    (function() {
-        // Force recalc layout before any rendering
-        document.documentElement.style.visibility = 'hidden';
-
-        window.addEventListener('load', function() {
-            // After everything is loaded, make visible again
-            document.documentElement.style.visibility = '';
-        });
-
-        // Make content visible after a timeout even if load event doesn't fire
-        setTimeout(function() {
-            document.documentElement.style.visibility = '';
-        }, 3000);
-    })();
-    </script>
     <header class="masthead">
         <div class="container">
             <div class="masthead-inner">
@@ -477,7 +215,7 @@
                     <h1><a href="/">BestFinanceSites<span class="domain">.com</span></a></h1>
                 </div>
                 <div class="header-right">
-                    <div class="date">March 2, 2026</div>
+                    <div class="date">May 12, 2026</div>
                     <button class="menu-toggle" aria-label="Toggle menu">
                         <span></span>
                         <span></span>
@@ -578,34 +316,98 @@
                     </div>
                 </section>
 
+                <section class="annual-rankings" style="margin: 2rem 0 3rem 0; padding: 2.5rem; background: var(--light-gray); border-left: 4px solid var(--primary-color);">
+                    <h2 class="section-heading">2026 Annual Rankings</h2>
+                    <p style="margin-bottom: 1.5rem;">Our flagship annual rankings, updated each January and refreshed mid-year as the category shifts.</p>
+                    <ul style="list-style: none; padding-left: 0;">
+                        <li style="margin-bottom: 0.8rem;"><a href="best-brokerage-2026.html"><strong>Best Online Brokerage 2026</strong></a> — Fidelity, Schwab, Interactive Brokers, Tastytrade, Robinhood, Webull ranked.</li>
+                        <li style="margin-bottom: 0.8rem;"><a href="best-robo-advisor-2026.html"><strong>Best Robo-Advisor 2026</strong></a> — Betterment, Wealthfront, Fidelity Go, Schwab, Vanguard compared.</li>
+                        <li><a href="best-stock-screener-2026.html"><strong>Best Stock Screener 2026</strong></a> — Finviz, TIKR, Koyfin, Stock Rover, TradingView, FactSet.</li>
+                    </ul>
+                </section>
+
                 <section class="latest-reviews">
-                    <h2 class="section-heading">Latest Reviews & Analysis</h2>
+                    <h2 class="section-heading">Latest Reviews &amp; Analysis</h2>
                     <div class="reviews-grid">
+                        <article class="review-card">
+                            <h3><a href="embedded-finance-baas-platforms.html">Embedded Finance &amp; BaaS Platforms: Unit, Stripe Treasury, Adyen Compared</a></h3>
+                            <div class="meta">
+                                <span class="category">Corporate Finance</span>
+                                <span class="date">May 1, 2026</span>
+                            </div>
+                            <p>The BaaS stack after the 2024–25 regulatory reset — sponsor banks, middleware, and the practical question of who can actually launch a fintech program in 2026.</p>
+                        </article>
+
+                        <article class="review-card">
+                            <h3><a href="rwa-tokenization-platforms.html">RWA Tokenization Platforms: Securitize, Ondo, Centrifuge</a></h3>
+                            <div class="meta">
+                                <span class="category">Alternative Investments</span>
+                                <span class="date">May 2, 2026</span>
+                            </div>
+                            <p>The infrastructure bringing private credit, funds, and securities on-chain — and which platforms actually clear institutional money.</p>
+                        </article>
+
+                        <article class="review-card">
+                            <h3><a href="smb-finance-stack.html">The Modern SMB Finance Stack: Ramp, Brex, Mercury, Pilot</a></h3>
+                            <div class="meta">
+                                <span class="category">Corporate Finance</span>
+                                <span class="date">April 20, 2026</span>
+                            </div>
+                            <p>Spend management, banking, bookkeeping, and AP — what the canonical 50-person startup actually runs in 2026.</p>
+                        </article>
+
+                        <article class="review-card">
+                            <h3><a href="ai-research-copilots.html">AI Research Copilots for Finance: Hebbia, Rogo, AlphaSense Compared</a></h3>
+                            <div class="meta">
+                                <span class="category">Investment Research</span>
+                                <span class="date">May 10, 2026</span>
+                            </div>
+                            <p>How LLM-powered research assistants are replacing junior analyst workflows for diligence, earnings prep, and document Q&amp;A — with pricing, accuracy, and integration analysis.</p>
+                        </article>
+
+                        <article class="review-card">
+                            <h3><a href="stablecoin-platforms.html">Stablecoin Platforms &amp; Tokenized Treasuries: Institutional Comparison</a></h3>
+                            <div class="meta">
+                                <span class="category">Alternative Investments</span>
+                                <span class="date">May 5, 2026</span>
+                            </div>
+                            <p>USDC, USDT, PYUSD, BUIDL, and tokenized money market funds — yields, redemption mechanics, custody, and the regulatory state after the 2025 GENIUS Act.</p>
+                        </article>
+
+                        <article class="review-card">
+                            <h3><a href="private-credit-platforms.html">Private Credit Platforms: Direct Lending in a $2T Asset Class</a></h3>
+                            <div class="meta">
+                                <span class="category">Alternative Investments</span>
+                                <span class="date">April 28, 2026</span>
+                            </div>
+                            <p>Reviews of iCapital, Yieldstreet, Percent, Arcesium, and the institutional platforms powering private credit's continued displacement of bank lending.</p>
+                        </article>
+
+                        <article class="review-card">
+                            <h3><a href="onchain-analytics-platforms.html">On-Chain Analytics: Nansen, Arkham, Chainalysis, Dune Compared</a></h3>
+                            <div class="meta">
+                                <span class="category">Market Data &amp; Analytics</span>
+                                <span class="date">April 22, 2026</span>
+                            </div>
+                            <p>Wallet labeling, flow tracking, and compliance-grade on-chain forensics — which platform fits researchers, traders, and institutional compliance teams.</p>
+                        </article>
+
+                        <article class="review-card">
+                            <h3><a href="prediction-markets.html">Regulated Prediction Markets: Kalshi, Polymarket &amp; the CFTC Era</a></h3>
+                            <div class="meta">
+                                <span class="category">Brokerage &amp; Trading</span>
+                                <span class="date">April 15, 2026</span>
+                            </div>
+                            <p>How event contracts went mainstream after CFTC approval — platform comparison, liquidity, contract design, and use cases for hedging and macro views.</p>
+                        </article>
+
                         <article class="review-card">
                             <h3><a href="bloomberg-terminal-alternatives.html">Bloomberg Terminal Alternatives: Cost-Effective Market Data Solutions</a></h3>
                             <div class="meta">
-                                <span class="category">Market Data & Analytics</span>
+                                <span class="category">Market Data &amp; Analytics</span>
                                 <span class="date">February 25, 2026</span>
                             </div>
                             <p>A comprehensive comparison of platforms offering Bloomberg Terminal-like functionality at more accessible price points, with feature matrices and ROI analysis.</p>
-                        </article>
-
-                        <article class="review-card">
-                            <h3><a href="professional-trading-platforms-comparison.html">The Evolution of Retail Trading Platforms: Advanced Features for Sophisticated Investors</a></h3>
-                            <div class="meta">
-                                <span class="category">Brokerage & Trading</span>
-                                <span class="date">February 15, 2026</span>
-                            </div>
-                            <p>How retail trading platforms are now offering institutional-grade tools, and which ones provide the most professional-level features.</p>
-                        </article>
-
-                        <article class="review-card">
-                            <h3><a href="fixed-income-analytics-platforms.html">Fixed Income Analytics Tools: Bond Market Analysis in a Volatile Rate Environment</a></h3>
-                            <div class="meta">
-                                <span class="category">Investment Research</span>
-                                <span class="date">February 8, 2026</span>
-                            </div>
-                            <p>Evaluating the most sophisticated fixed income research platforms and their effectiveness in today's challenging interest rate landscape.</p>
                         </article>
                     </div>
                 </section>
@@ -621,28 +423,28 @@
                                     <li><a href="financial-data-visualization-platforms.html">Financial analytics platforms</a></li>
                                     <li><a href="economic-data-platforms.html">Economic indicators dashboards</a></li>
                                     <li><a href="bloomberg-terminal-alternatives.html">Bloomberg Terminal alternatives</a></li>
-                                    <li><a href="market-sentiment-tools.html">MarketWatch real-time tracking</a></li>
+                                    <li><a href="onchain-analytics-platforms.html">On-chain analytics (Nansen, Arkham)</a></li>
                                 </ul>
                             </div>
                             
                             <div class="category-item">
                                 <h3><a href="investment-research.html">Investment Research & Analysis</a></h3>
                                 <ul>
+                                    <li><a href="ai-research-copilots.html">AI research copilots (Hebbia, Rogo)</a></li>
+                                    <li><a href="best-stock-screener-2026.html">Best Stock Screener 2026 rankings</a></li>
                                     <li><a href="equity-research-management-platforms.html">Equity research platforms</a></li>
                                     <li><a href="fixed-income-analytics-platforms.html">Fixed income analysis tools</a></li>
-                                    <li><a href="algorithmic-etf-platforms.html">ETF screening resources</a></li>
                                     <li><a href="technical-analysis-platforms.html">Technical analysis platforms</a></li>
-                                    <li><a href="institutional-research-platforms.html">S&P Global Market Intelligence</a></li>
                                 </ul>
                             </div>
                             
                             <div class="category-item">
                                 <h3><a href="brokerage-trading.html">Brokerage & Trading Platforms</a></h3>
                                 <ul>
-                                    <li><a href="professional-trading-platforms-comparison.html">Full-service brokerages</a></li>
-                                    <li><a href="professional-trading-platforms-comparison.html">Discount brokers comparison</a></li>
-                                    <li><a href="algorithmic-trading-platforms-comparison.html">Day trading platforms</a></li>
-                                    <li><a href="options-flow-platforms.html">Options trading specialists</a></li>
+                                    <li><a href="best-brokerage-2026.html">Best Brokerage 2026 rankings</a></li>
+                                    <li><a href="crypto-exchanges-comparison.html">Crypto exchanges (Coinbase, Kraken)</a></li>
+                                    <li><a href="mortgage-lending-tech-platforms.html">Mortgage &amp; lending tech</a></li>
+                                    <li><a href="prediction-markets.html">Regulated prediction markets</a></li>
                                     <li><a href="multi-asset-platforms.html">Interactive Brokers professional platform</a></li>
                                 </ul>
                             </div>
@@ -674,9 +476,9 @@
                             <div class="category-item">
                                 <h3><a href="regulatory-compliance.html">Regulatory & Compliance</a></h3>
                                 <ul>
+                                    <li><a href="ai-compliance-model-risk-platforms.html">AI compliance &amp; model risk</a></li>
                                     <li><a href="regulatory-compliance-platforms.html">SEC EDGAR database</a></li>
-                                    <li><a href="regulatory-compliance-platforms.html">FINRA BrokerCheck</a></li>
-                                    <li><a href="regtech-compliance-platforms.html">Compliance software reviews</a></li>
+                                    <li><a href="regtech-compliance-platforms.html">RegTech compliance software</a></li>
                                     <li><a href="financial-risk-management-systems.html">Risk management platforms</a></li>
                                     <li><a href="economic-data-platforms.html">Federal Reserve economic data</a></li>
                                 </ul>
@@ -698,11 +500,11 @@
                             <div class="category-item">
                                 <h3><a href="corporate-finance.html">Corporate Finance Tools</a></h3>
                                 <ul>
-                                    <li><a href="capital-budgeting-software.html">Capital budgeting software</a></li>
+                                    <li><a href="smb-finance-stack.html">SMB finance stack (Ramp, Brex, Mercury)</a></li>
+                                    <li><a href="embedded-finance-baas-platforms.html">Embedded finance &amp; BaaS</a></li>
+                                    <li><a href="cap-table-equity-compensation-platforms.html">Cap table &amp; equity comp (Carta, Pulley)</a></li>
                                     <li><a href="financial-modeling-tools.html">Financial modeling platforms</a></li>
                                     <li><a href="treasury-management-systems.html">Treasury management systems</a></li>
-                                    <li><a href="financial-forecasting-software.html">Cash flow forecasting</a></li>
-                                    <li><a href="corporate-treasury-management-systems.html">Oracle NetSuite ERP</a></li>
                                 </ul>
                             </div>
                             
@@ -722,11 +524,11 @@
                             <div class="category-item">
                                 <h3><a href="alternative-investments.html">Alternative Investments</a></h3>
                                 <ul>
-                                    <li><a href="private-equity-platforms-individual-investors.html">Private equity platforms</a></li>
+                                    <li><a href="private-credit-platforms.html">Private credit platforms</a></li>
+                                    <li><a href="rwa-tokenization-platforms.html">RWA tokenization (Securitize, Ondo)</a></li>
+                                    <li><a href="stablecoin-platforms.html">Stablecoins &amp; tokenized treasuries</a></li>
+                                    <li><a href="carbon-markets-climate-finance-platforms.html">Carbon markets &amp; climate finance</a></li>
                                     <li><a href="real-estate-investment-platforms.html">Real estate investment sites</a></li>
-                                    <li><a href="hedge-fund-performance-databases.html">Hedge fund databases</a></li>
-                                    <li><a href="derivatives-pricing-models.html">Commodity trading resources</a></li>
-                                    <li><a href="alternative-investment-management-software.html">Masterworks art investing</a></li>
                                 </ul>
                             </div>
                             
@@ -744,11 +546,11 @@
                             <div class="category-item">
                                 <h3><a href="wealth-management.html">Wealth Management</a></h3>
                                 <ul>
+                                    <li><a href="best-robo-advisor-2026.html">Best Robo-Advisor 2026 rankings</a></li>
+                                    <li><a href="consumer-insurance-comparison-platforms.html">Consumer insurance comparison</a></li>
                                     <li><a href="wealth-management-software-platforms.html">Private banking platforms</a></li>
                                     <li><a href="family-office-investment-management-platforms.html">Family office resources</a></li>
-                                    <li><a href="personal-financial-planning-software.html">Estate planning software</a></li>
                                     <li><a href="tax-optimization-platforms.html">Tax planning resources</a></li>
-                                    <li><a href="wealth-tech-client-relationship-platforms.html">J.P. Morgan Private Bank</a></li>
                                 </ul>
                             </div>
                         </div>
