@@ -1,9 +1,42 @@
+# OS Files
 .DS_Store
-  .claude/
-  .claude
-  *.DS_Store
-  .AppleDouble
-  .LSOverride
-  *.md
-  *.txt
-  !ads.txt
+*.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.csv
+# Claude AI
+.claude/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.env
+*.sh
+*.md
+# Python scripts (not needed for deployment)
+*.py
+generate_*.sh
+requirements.txt
+
+# Build files
+dist/
+build/
+*.egg-info/
+
+# Keep important text files
+!ads.txt
+!robots.txt
