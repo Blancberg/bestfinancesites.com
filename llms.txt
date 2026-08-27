@@ -1,0 +1,59 @@
+# BestFinanceSites.com
+
+BestFinanceSites.com is an independent review and comparison publisher covering financial software, data platforms, and online tools. We evaluate the products that finance professionals, institutions, and individual investors actually use — market data terminals, trading and portfolio systems, treasury and risk platforms, planning and analytics software, and consumer finance apps — and score them on capability, workflow fit, integration, and real cost. Reviews are produced by our editorial team under a published methodology; we take no payment for placement or rankings.
+
+## Most-Read Comparisons
+
+- [Financial Planning Tools](https://bestfinancesites.com/financial-planning-tools): eMoney, MoneyGuidePro, RightCapital and NaviPlan compared on planning method, tax optimisation, client experience, and price.
+- [Treasury Management Systems](https://bestfinancesites.com/treasury-management-systems): Kyriba, ION, GTreasury and FIS Quantum ranked on cash visibility, payments, ERP integration, and licence cost.
+- [Multi-Asset Trading Platforms](https://bestfinancesites.com/multi-asset-platforms): which US vendors genuinely support both buy-side and sell-side workflows across equities, fixed income, derivatives, and FX.
+- [Investment Analytics Software](https://bestfinancesites.com/investment-portfolio-analytics-software): FactSet, BlackRock Aladdin, Axioma and Morningstar Direct compared on attribution, risk models, and optimisation.
+- [Market Data Terminals Compared](https://bestfinancesites.com/market-data-terminals-comparison): Bloomberg, LSEG Workspace, FactSet, S&P Capital IQ and lower-cost challengers on data depth, analytics, and total cost.
+- [LSEG vs Bloomberg for Fixed Income](https://bestfinancesites.com/lseg-vs-bloomberg-fixed-income): a desk-by-desk verdict on dealer liquidity, evaluated pricing, quant tooling, and the two-terminal cost strategy.
+- [Best Finance Websites](https://bestfinancesites.com/top-finance-websites-comparison): the most useful finance sites ranked by category — news, research, market data, screening, and education.
+
+## Institutional Platforms
+
+- [Institutional Custody Solutions](https://bestfinancesites.com/institutional-custody-solutions): BNY, State Street, Northern Trust and JPMorgan plus digital-asset custodians and multi-custodian aggregation.
+- [Wealth Management Software](https://bestfinancesites.com/wealth-management-software-platforms): Envestnet Tamarac, Addepar, Black Diamond and Orion on portfolio management, reporting, and billing.
+- [Supply Chain Finance Platforms](https://bestfinancesites.com/supply-chain-finance-platforms): working capital, trade finance, and invoice financing platforms for enterprise buyers and banks.
+- [Fund Administration Software](https://bestfinancesites.com/fund-administration-software): NAV calculation, investor servicing, and reporting systems for fund administrators and managers.
+- [Hedge Fund Performance Databases](https://bestfinancesites.com/hedge-fund-performance-databases): HFR, Eurekahedge, BarclayHedge and peers on coverage, survivorship bias, and analytics.
+- [Order & Execution Management Systems](https://bestfinancesites.com/order-execution-management-systems): OMS and EMS platforms compared on connectivity, compliance, and cross-asset coverage.
+- [Fixed Income Trading Platforms](https://bestfinancesites.com/fixed-income-trading-platforms): the electronic venues and dealer platforms bond desks execute on.
+- [Financial Data API Providers](https://bestfinancesites.com/financial-data-api-providers): market, reference, and fundamental data APIs compared on coverage, latency, and licensing.
+
+## Quant, Research & Analytics
+
+- [Quant Trading Platforms](https://bestfinancesites.com/quant-trading-platforms): research, backtesting, and execution environments for systematic strategies.
+- [Quantitative Analysis Tools](https://bestfinancesites.com/quantitative-analysis-tools): the platforms, Python and R stacks, data APIs, and backtesting engines quants use in practice.
+- [Financial Modeling Tools](https://bestfinancesites.com/financial-modeling-tools): modelling, valuation, and scenario software for analysts and corporate finance teams.
+- [Financial News Aggregators](https://bestfinancesites.com/financial-news-aggregators): news terminals, aggregators, and alerting tools for market-moving coverage.
+- [Bloomberg Terminal Alternatives](https://bestfinancesites.com/bloomberg-terminal-alternatives): lower-cost desktops and data services that replace part of a Terminal seat.
+
+## Personal Finance & Investing
+
+- [Best Personal Finance Apps](https://bestfinancesites.com/personal-finance-apps-comparison): Monarch, YNAB, Empower, Simplifi and more tested on budgeting, net worth tracking, and security.
+- [Best Budgeting Apps](https://bestfinancesites.com/best-budgeting-apps): budgeting apps and personal finance dashboards compared by method — zero-based, envelope, and dashboard tracking.
+- [Robo-Advisor Platforms](https://bestfinancesites.com/robo-advisor-platforms): the full robo landscape on fees, portfolio construction, tax features, and hybrid advice.
+- [Best Robo-Advisors with Bank Integration](https://bestfinancesites.com/bank-robo-advisors): Schwab, Fidelity Go, Merrill, Wells Fargo, Chase and Citi on integration depth, cash allocation, and adviser access.
+- [Best Robo-Advisor 2026](https://bestfinancesites.com/best-robo-advisor-2026): our annual ranking of the leading robo-advisors.
+- [Tax Optimization Platforms](https://bestfinancesites.com/tax-optimization-platforms): tax-loss harvesting, asset location, and withdrawal sequencing tools.
+
+## Category Hubs
+
+- [Market Data & Analytics](https://bestfinancesites.com/market-data-analytics)
+- [Investment Research](https://bestfinancesites.com/investment-research)
+- [Brokerage & Trading](https://bestfinancesites.com/brokerage-trading)
+- [Institutional Finance](https://bestfinancesites.com/institutional-finance)
+- [Portfolio Management](https://bestfinancesites.com/portfolio-management)
+- [Risk Management](https://bestfinancesites.com/risk-management)
+- [Wealth Management](https://bestfinancesites.com/wealth-management)
+- [Regulatory & Compliance](https://bestfinancesites.com/regulatory-compliance)
+
+## About
+
+- [Review Methodology](https://bestfinancesites.com/methodology): how platforms are scored, weighted, and re-tested.
+- [Editorial Standards](https://bestfinancesites.com/editorial-standards): independence, sourcing, and correction policy.
+- [About Us](https://bestfinancesites.com/about): who produces the reviews.
+- [Contact](https://bestfinancesites.com/contact): department contacts for editorial, research, press, and vendor relations.

@@ -1587,6 +1587,11 @@ ul, ol {
     margin: 3rem 0;
 }
 
+/* Single-column location block (used when no map image accompanies the address) */
+.location-grid.single-column {
+    grid-template-columns: 1fr;
+}
+
 .location-details h3 {
     font-size: 2rem;
     margin-bottom: 1.5rem;
